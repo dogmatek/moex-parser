@@ -1,0 +1,9 @@
+API:  http://iss.moex.com/iss/reference/
+
+
+Получить список рынков торговой системы: https://iss.moex.com/iss/engines/stock/markets.xml
+
+/iss/history/engines/[engine]/markets/[market]/sessions/[session]/securities
+Получить историю по всем бумагам на рынке за одну дату.
+Например: https://iss.moex.com/iss/history/engines/stock/markets/index/securities.xml?date=2010-11-22
+Итоги торгов: https://iss.moex.com/iss/history/engines/stock/markets/shares/securities.json?date=2020-12-22
